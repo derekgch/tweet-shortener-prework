@@ -38,6 +38,12 @@ end
 
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
+def bulk_tweet_shortener ()
+
+end
+
+
+
 #  #selective_tweet_shortener
   #   shortens tweets that are more than 140 characters (FAILED - 3)
   #   does not shorten tweets that are less than 130 characters (FAILED - 4)
