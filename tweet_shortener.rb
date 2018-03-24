@@ -25,7 +25,7 @@ def word_substituter (tweet="some thing need to be shorten, like two too")
   puts temp_a
   temp_a.each do |word|
     if words_can_b_sh.include?(word.downcase)
-      temp << dictionary[word]
+      temp << dictionary[word.downcase]
     else
       temp << word
     end
