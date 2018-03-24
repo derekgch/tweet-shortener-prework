@@ -40,9 +40,11 @@ end
 def bulk_tweet_shortener (tweets)
   if(tweets.size > 0)
     tweets.each do |tweet_each|
-      if(!tweet_each.empty?)
-        puts word_substituter(tweet_each)
-      end
+
+      puts tweet_each
+      # if(!tweet_each.empty?)
+      #   puts word_substituter(tweet_each)
+      # end
     end
   end
 end
