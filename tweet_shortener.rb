@@ -33,7 +33,8 @@ def word_substituter (tweet="some thing need to be shorten, like two too")
   temp.strip
 end
 
-tw="I'm running out of example tweets for you guys, which is weird, because I'm a writer and this is just writing and I tweet all day. For real, you guys. For real."
+tw="I'm running out of example tweets for you guys, "
+tw2="which is weird, because I'm a writer and this is just writing and I tweet all day. For real, you guys. For real."
 puts word_substituter(tw)
 
 #  #bulk_tweet_shortener
