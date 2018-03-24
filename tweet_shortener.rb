@@ -38,7 +38,7 @@ end
 #    shortens each tweet and prints the results (FAILED - 2)
 def bulk_tweet_shortener (tweets)
   tweets.each do |tweet_each|
-    puts word_substituter(tweet_each)
+    puts word_substituter(tweet_each.flatten)
   end
 end
 
