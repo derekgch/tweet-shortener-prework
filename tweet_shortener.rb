@@ -24,6 +24,7 @@ def word_substituter (tweet)
 
 end
 
+word_substituter("sd")
 
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
