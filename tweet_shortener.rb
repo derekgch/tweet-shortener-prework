@@ -37,7 +37,10 @@ end
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
 def bulk_tweet_shortener (tweets)
-  puts tweets
+  tweets.each do |tweet_each|
+    puts word_substituter(tweet_each)
+  end
+  
 
 end
 
