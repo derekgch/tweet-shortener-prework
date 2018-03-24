@@ -35,7 +35,8 @@ end
 
 tw="I'm running out of example tweets for you guys, "
 tw2="which is weird, because I'm a writer and this is just writing and I tweet all day. "
-tw3= " For real, you guys. For real."
+tw3= " For real, "
+tw4= "you guys. For real."
 puts word_substituter(tw3)
 
 #  #bulk_tweet_shortener
