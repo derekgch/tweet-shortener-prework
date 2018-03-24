@@ -18,7 +18,7 @@ end
 
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
-def word_substituter (tweet)
+def word_substituter (tweet="")
   puts dictionary
 
 
