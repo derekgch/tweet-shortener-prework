@@ -22,6 +22,7 @@ def word_substituter (tweet="some thing need to be shorten, like two too")
   words_can_b_sh = dictionary.keys
   #puts words_can_b_sh
   temp = ""
+  puts temp_a
   temp_a.each do |word|
     if words_can_b_sh.include?(word.downcase)
       temp << dictionary[word]
