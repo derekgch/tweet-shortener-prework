@@ -36,7 +36,7 @@ end
 
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
-def bulk_tweet_shortener ()
+def bulk_tweet_shortener (tweets)
 
 end
 
