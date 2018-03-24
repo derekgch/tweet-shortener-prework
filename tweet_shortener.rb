@@ -1,4 +1,5 @@
-  dictionary = {
+def dictionary
+  word_list = {
   "hello" => 'hi',
   "to" => '2' ,
   "two"=> '2' ,
@@ -10,6 +11,7 @@
   "at" => "@" ,
   "and" => "&"
 }
+end
 
 
 
