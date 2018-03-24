@@ -31,7 +31,7 @@ def word_substituter (tweet="some thing need to be shorten, like you too")
     temp
 end
 
-word_substituter("sd")
+word_substituter()
 
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
