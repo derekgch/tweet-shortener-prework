@@ -55,6 +55,11 @@ end
 #  #selective_tweet_shortener
   #   shortens tweets that are more than 140 characters (FAILED - 3)
   #   does not shorten tweets that are less than 130 characters (FAILED - 4)
+def selective_tweet_shortener ()
+
+end
+
+
   # #shortened_tweet_truncator
   #   truncates tweets over 140 characters after shortening (FAILED - 5)
   #   does not shorten tweets shorter than 140 characters. (FAILED - 6)
