@@ -19,9 +19,16 @@ end
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
 def word_substituter (tweet="some thing need to be shorten, like you too")
-   dictionary
-
-
+  temp_a = tweet.to_a
+  words_can_b_sh = dictionary.keys
+  temp = ""
+  temp_a.each do |word|
+    if words_can_b_sh.include?(word)
+      temp << dictionary[word]
+    else
+      temp << word
+    end
+    temp
 end
 
 word_substituter("sd")
