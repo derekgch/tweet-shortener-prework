@@ -21,6 +21,7 @@ end
 def word_substituter (tweet="some thing need to be shorten, like you too")
   temp_a = tweet.split(" ")
   words_can_b_sh = dictionary.keys
+  puts words_can_b_sh
   temp = ""
   temp_a.each do |word|
     if words_can_b_sh.include?(word)
