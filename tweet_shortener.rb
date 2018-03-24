@@ -22,7 +22,7 @@ def word_substituter (tweet="some thing need to be shorten, like two too")
   words_can_b_sh = dictionary.keys
   #puts words_can_b_sh
   temp = ""
-  puts temp_a
+#  puts temp_a
   temp_a.each do |word|
     if words_can_b_sh.include?(word.downcase)
       temp << dictionary[word.downcase]
@@ -34,11 +34,11 @@ def word_substituter (tweet="some thing need to be shorten, like two too")
   temp.strip
 end
 
-tw="I'm running out of example tweets for you guys, "
-tw2="which is weird, because I'm a writer and this is just writing and I tweet all day. "
-tw3= " For real, "
-tw4= "you guys. For real."
-puts word_substituter(tw3)
+# tw="I'm running out of example tweets for you guys, "
+# tw2="which is weird, because I'm a writer and this is just writing and I tweet all day. "
+# tw3= " For real, "
+# tw4= "you guys. For real."
+# puts word_substituter(tw3)
 
 #  #bulk_tweet_shortener
 #    shortens each tweet and prints the results (FAILED - 2)
