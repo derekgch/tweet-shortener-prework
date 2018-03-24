@@ -39,7 +39,7 @@ end
 def bulk_tweet_shortener (tweets)
   if(tweets.size > 0)
     tweets.each do |tweet_each|
-      puts word_substituter(tweet_each.flatten)
+      puts word_substituter(tweet_each)
     end
   end
 end
