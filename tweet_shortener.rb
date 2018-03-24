@@ -1,3 +1,8 @@
+def dictionary
+
+end
+
+
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
 
