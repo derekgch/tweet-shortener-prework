@@ -76,7 +76,5 @@ def shortened_tweet_truncator(tweet)
     temp
   else
     tweet
-
   end
-
 end
