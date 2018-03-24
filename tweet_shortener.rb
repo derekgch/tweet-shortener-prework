@@ -14,9 +14,10 @@ end
 
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
-def word_substituter {
-  
-}
+def word_substituter 
+
+
+end
 
 
 #  #bulk_tweet_shortener
