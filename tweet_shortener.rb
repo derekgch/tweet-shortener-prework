@@ -29,6 +29,7 @@ def word_substituter (tweet="some thing need to be shorten, like you too")
       temp << word
     end
     temp
+  end
 end
 
 word_substituter()
