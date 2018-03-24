@@ -44,19 +44,14 @@ end
 #    shortens each tweet and prints the results (FAILED - 2)
 def bulk_tweet_shortener (tweets)
   if(tweets.size > 0)
-    puts word_substituter(tweets[0])
-    puts word_substituter(tweets[1])
-    puts word_substituter(tweets[2])
-    puts word_substituter(tweets[3])
-    #puts word_substituter(tweets[4])
-    # tweets.each do |tweet_each|
-    #   puts word_substituter(tweet_each)
-    #
-    #   # puts tweet_each
-    #   # if(!tweet_each.empty?)
-    #   #   puts word_substituter(tweet_each)
-    #   # end
-    # end
+    tweets.each do |tweet_each|
+      puts word_substituter(tweet_each)
+
+      # puts tweet_each
+      # if(!tweet_each.empty?)
+      #   puts word_substituter(tweet_each)
+      # end
+    end
   end
 end
 
