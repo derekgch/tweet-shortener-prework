@@ -18,7 +18,7 @@ end
 
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
-def word_substituter (tweet="some thing need to be shorten, like you too")
+def word_substituter (tweet="some thing need to be shorten, like two too")
   temp_a = tweet.split(" ")
   words_can_b_sh = dictionary.keys
   #puts words_can_b_sh
