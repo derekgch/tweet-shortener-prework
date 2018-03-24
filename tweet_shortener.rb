@@ -7,13 +7,16 @@ def dictionary
   {'you' => 'u'},
   {"at" => "@" },
   {"and" => "&"}
+}
 
 end
 
 
 # #word_substituter
 #    replaces long words with their expected short form (FAILED - 1)
-
+def word_substituter {
+  
+}
 
 
 #  #bulk_tweet_shortener
