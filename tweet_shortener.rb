@@ -68,3 +68,15 @@ end
   # #shortened_tweet_truncator
   #   truncates tweets over 140 characters after shortening (FAILED - 5)
   #   does not shorten tweets shorter than 140 characters. (FAILED - 6)
+
+def shortened_tweet_truncator(tweet)
+  if tweet.length > 140
+    temp = word_substituter(tweet)
+    temp = temp[0..139] if temp.length >140
+    temp
+  else
+    tweet
+
+  end
+
+end
